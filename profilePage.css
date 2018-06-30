@@ -1,0 +1,90 @@
+.profileStyle{
+color:black;
+
+}
+.formDiv{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    /*box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);*/
+    box-shadow: 0px 0px 5px 1px lightgrey;
+    border-radius: 5px;
+}
+h2{
+    text-align: center;
+    padding: 2%;
+    border-bottom: 3px solid #ededed;
+}
+.arrowLeft{
+    font-size: 230% !important;   
+    margin-left: 2%;
+    cursor: pointer;
+}
+.noUser{
+    margin-top: 21%;
+    margin-left: 32%;
+    opacity: 0.5;
+        font-size: 250%;
+
+}
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+    min-height: 500px
+}
+.channels{
+    margin-top: 10%;
+}
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+     .signupbtn {
+       width: 100%;
+    }
+}
+/*star rating*/
+.ratings {
+    position: relative;
+    vertical-align: middle;
+    display: inline-block;
+    color: #b1b1b1;
+    overflow: hidden;
+}
+.full-stars {
+    position: absolute;
+    left: 0;
+    top: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #fde16d;
+}
+.empty-stars:before, .full-stars:before {
+    content:"\2605\2605\2605\2605\2605";
+    font-size: 14pt;
+}
+.empty-stars:before {
+    -webkit-text-stroke: 1px #848484;
+}
+.full-stars:before {
+    -webkit-text-stroke: 1px orange;
+}
+/* Webkit-text-stroke is not supported on firefox or IE */
+
+/* Firefox */
+ @-moz-document url-prefix() {
+    .full-stars {
+        color: #ECBE24;
+    }
+}
+/* IE */
+ <!--[if IE]> .full-stars {
+    color: #ECBE24;
+}
+<![endif]-->

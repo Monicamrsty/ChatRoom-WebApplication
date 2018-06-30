@@ -1,0 +1,547 @@
+
+.headrow{
+	    height: 70px;
+}
+.line {
+    height: 5px;
+    background: #FFEE90;
+}
+.userInfo{
+	background-color: #404040;width: 13%;height: 70px;color: white;padding: 1% !important;
+}
+.profileSearchField{
+	width: 63%;
+    float: right;
+    margin-top: 7px;
+}
+.listOfProfileSearch{
+	width: 51%;
+    float: right;
+    z-index: 1;
+    position: relative;
+   
+}
+#profileSearchInputField{
+	border-radius: 5px;
+}
+.leftSideMenu{
+	background-color: #404040;
+	/*width:13% !important;*/
+	padding: 0px 0;
+	overflow-y: auto; 
+	overflow-x: hidden;
+	height: 93%;
+}
+.userMenuList{
+    margin-right: 5px;
+}
+.postingOptionMenu{
+    margin-right: 5px;
+    font-size: 120%;
+}
+.message{
+    height: 45px !important;
+	border-bottom-right-radius: 5px !important;
+	border-top-right-radius: 5px !important;
+}
+.userMenuLink{
+	text-decoration: none !important;
+}
+.multipleOptions{
+	/*padding-top: 15px !important;
+    padding-bottom: 15px !important;*/
+    background-color: white !important;
+}
+li>*{
+	/*padding-left: 7%;*/
+}
+/*#channel{
+	padding-left: 6% ;
+}*/
+
+.listbg:hover{
+	box-shadow: 0 0 6px rgba(35, 173, 255, 1);
+	   background-color: #333 !important;
+    color: white;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	letter-spacing: 0.05em;
+}
+.listbg{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	letter-spacing: 0.05em;
+	margin-bottom: 5px;
+    padding: 2% 12% !important;
+}
+head,body{
+	width: 100%; margin: 0 auto; overflow: hidden;
+    font-size: 1.5vh;
+}
+.nopadding{
+	padding: 0px !important;
+}
+#footer {
+   position: fixed;
+   bottom: 0;
+   /*width: 87%;*/
+   min-height: 4.8em !important;
+}
+.listheader{
+	padding: 12%;
+}
+.starredList{
+	margin-top: 10%;
+	font-size: 1.4vh;
+}
+ui{
+	padding: 0px;
+	
+}
+.channeldiv{
+	/*text-align: center;*/
+	background-color: transparent;
+	/*padding-bottom: 5%;*/
+	padding-top: 5%;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	letter-spacing: 0.2em;
+	font-size: 1.7vh;
+	
+}
+.channeldiv:hover{
+	/*text-align: center;*/
+	background-color: #383836;
+	/*background-color: transparent;*/
+	/*padding-bottom: 5%;*/
+	padding-top: 5%;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	letter-spacing: 0.2em;
+	font-size: 1.7vh;
+	
+}
+.Starreddiv{
+	/*text-align: center;*/
+	background-color: transparent;
+	padding-bottom: 4%;
+	padding-top: 4%;
+	padding-left: 11% !important;
+	color: white;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	letter-spacing: 0.2em;
+	
+}
+.Starreddiv:hover{
+	/*text-align: center;*/
+	background-color: #383836;
+	/*background-color: transparent;*/
+	padding-bottom: 4%;
+	padding-top: 4%;
+	color: white;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	letter-spacing: 0.2em;
+	
+}
+.directmsgdiv{
+	/*text-align: center;*/
+	background-color: transparent;
+	padding-bottom: 5%;
+	padding-top: 5%;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	letter-spacing: 0.2em;
+	
+}
+.directmsgdiv:hover{
+	/*text-align: center;*/
+	background-color: #383836;
+	/*background-color: transparent;*/
+	padding-bottom: 5%;
+	padding-top: 5%;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	letter-spacing: 0.2em;
+	
+}
+.userProfile{
+	margin-left: 70%;
+	width: 260%;
+}
+.textinput{
+
+	/*margin-left: 18px;*/
+	width: 100%;
+}
+.textinput1{
+	position: absolute !important;
+    /*margin-left: 18px;*/
+    width: 100%;
+    margin-top: 0px;
+    bottom: 0px;
+}
+.btnadj{
+    margin-top: 0.3em;
+    padding-left: 0.3em;
+}
+.link{
+	color:white;
+	padding-left: 6%;
+}
+.link:hover{
+	color:white;
+	text-decoration: none;
+	padding-left: 6%;
+}
+.directmsgList{
+	margin-top: 10%;
+	
+}
+
+.icon-plus {
+background-color: #404040;
+border-radius:8px;
+-webkit-border-radius:8px;
+-moz-border-radius:8px;
+width: 16px;
+height: 16px;
+position: relative;
+top:0;
+left:0;
+    margin-top: 3px;
+}
+.icon-plus:after {
+background-color: #fff;
+width: 8px;
+height: 2px;
+border-radius: 1px;
+-webkit-border-radius: 1px;
+-moz-border-radius: 1px;
+position: absolute;
+top:7px;
+left: 4px;
+  content:"";
+      
+}
+.icon-plus:before {
+background-color: #fff;
+width: 2px;
+height: 8px;
+border-radius: 1px;
+-webkit-border-radius: 1px;
+-moz-border-radius: 1px;
+position: absolute;
+top:4px;
+left: 7px;
+  content:"";
+
+}
+.btnsend{
+padding: 13px !important;
+border-top-right-radius: 10px !important;
+border-bottom-right-radius: 10px !important;  
+border-top-left-radius: 0px !important;
+border-bottom-left-radius: 0px !important;
+width: 4%;
+}
+.channel_title{
+	font-size: 154%;
+    color: #706c6c;
+}
+.checked {
+    color: orange;
+    font-size: 141% !important;
+}
+.divider{
+	font-size: 140%;
+	color: #706c6c;
+}
+.purposeChannel{
+	font-size: 110%;
+	color: #706c6c;
+}
+.detailsOfChannel{
+
+}
+.addChannel{
+	background-color: #404040;
+    color: white;
+    padding: 0px !important;
+}
+.addChannel:active{
+	background-color: #404040;
+    color: white !important;;
+    padding: 0px !important;
+}
+.likeIcon{
+	
+    /* padding: 7px; */
+    margin-left: 55px;
+    padding-right: 5px;
+    margin-top: 7px;
+    /* color: #5a49e3; */
+}
+.likeIcon:hover{
+	
+    /* padding: 7px; */
+   margin-left: 55px;
+    padding-right: 5px;
+    margin-top: 7px;
+    color: #5a49e3;
+    cursor: pointer;
+    text-align: center;
+}
+.dislikeIcon{
+	
+	padding-right: 5px;
+	padding-left: 10px;
+}
+.dislikeIcon:hover{
+	
+	padding-right: 5px;
+	color: #5a49e3;
+	padding-left: 10px;
+	cursor: pointer;
+	text-align: center;
+}
+.replyMsgIcon{
+	font-size: 186%;
+    cursor: pointer;
+    margin-left: 1%;
+}
+.replyButton{
+	padding: 12px !important;
+    border-bottom-left-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: -41px;
+    /*border-top-right-radius: 10px !important;*/
+    /*border-bottom-right-radius: 10px !important;*/
+}
+
+.emptyChannel{
+	margin-left: 37%;
+    margin-top: 22%;
+    opacity: 0.4;
+    /* color: green; */
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.newChannel{
+	color:white;
+	cursor:pointer;
+
+}
+.codeDisplay{
+	max-height: 20%;
+	border-left: 4px solid #4CAF50;
+}
+.codeArea{
+	min-height: 30%;
+}
+.channelHeading{
+	
+}
+.channelFormDiv{
+	padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 6%;
+}
+.arrowLeft{
+    font-size: 230% !important;   
+    margin-left: 2%;
+    margin-top: 3%;
+    cursor: pointer;
+}
+
+
+.dropbtn {
+    background-color: #404040;
+    color: white;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.9vh;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+   background-color: #404040;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+    z-index: 100;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5%;
+    padding: 10%;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+
+/*pagination styling*/
+#content{
+  padding: 15px;
+  border: solid 1px #eee;
+  max-width: 660px;
+  margin: auto;
+  border-radius: 4px;
+}
+.myPagination{
+	margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    float: right;
+}
+
+
+/*image upload css*/
+
+.upload-button {
+    padding: 4px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: block;
+    float: left;
+}
+.upload-document {
+    padding: 4px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: block;
+    float: left;
+}
+.imageUploadBtn{
+	
+    border: 1px solid black;
+    border-radius: 5px; 
+    margin-top: 1%;
+    margin-left: 37%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background-color: white;
+    font-weight: 600;
+}
+.imageUploadBtn:hover{
+	color: #3595de;
+}
+.profile-pic {
+    max-width: 200px;
+    max-height: 200px;
+    display: block;
+}
+.profile-pic1 {
+    height: 41%;
+    width: 101%;
+    border-radius: 2%;
+    display: block;
+    border: 6px !important;
+    border: 3px solid #cccccc !important;
+    cursor:pointer;
+}
+.updatePic:hover{
+	opacity: 0.3;
+}
+.file-upload {
+    display: none;
+}
+/*end of Image upload css*/
+.channelMembersLink{
+	padding-right: 5px !important;
+	padding-left: 10px !important;
+}
+.channelMembersUl{
+	margin-left: 7%;
+	overflow-y: auto;
+    height: 450%;
+}
+.helpPage{
+	position: absolute;
+	z-index: 100;
+	margin-top: 30%;
+}
+
+#threadContainer{
+	border-radius: 0px;
+	border-color: #cccccc !important;
+}
+.threadHeading{
+	border-radius: 0px !important;
+	padding-top: 5% !important;
+	padding-bottom: 5% !important;
+}
+/*.thread_wrapper{
+	height: 64%;
+    
+}*/
+.rightThread{
+	margin-left: 0px; 
+  padding: 5px 5px;
+  background-color: white;
+  /*border-radius: 10px;*/
+    
+}
+.threadClose{
+	color: rgb(255, 255, 255) !important;
+	font-weight: 100 !important;
+	    opacity: 1 !important;
+}
+.threadClose:hover{
+	color: rgb(255, 255, 255) !important;
+	font-weight: 100!important;
+	opacity: 1 !important;
+}
+#threadContainerBody{
+	padding: 0px;
+	height: 85%;
+	overflow-y: auto;
+	overflow-x:hidden; 
+}
+.copyRight{
+	position: fixed !important;
+    bottom: 0px;
+    z-index: 100;
+    font-size: 1vh;
+    text-align: center;
+    /*background-color: #404040;*/
+    color: black;
+    padding-top: 1em;
+    padding-bottom: 0.4em;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+
+/*logIn Activity*/
+.vertical-text {
+	transform: rotate(90deg);
+	transform-origin: left top 0;
+}
+path { 
+    stroke: steelblue;
+    stroke-width: 2;
+    fill: none;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+/*pie chart*/
+.slice text {
+            font-size: 16pt;
+            font-family: Arial;
+        }   
